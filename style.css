@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul li a {
+    color: #3C3C3C !important;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+:root {
+    --color: #363958;
+    --color-two: #FABE4C;
+}
+
+/* header  */
+.navbar {
+    background: url(img/icons/bg-shap.png);
+    background-repeat: no-repeat;
+    background-position: 39% 0%;
+}
+
+
+/* hero  */
+
+
+.hero {
+    padding: 100px 0;
+}
+
+.bg-hero,
+header {
+    background: #fffbf0;
+}
+
+.hero-left {}
+
+.hero-left h2 {
+    font-size: 80px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: var(--color);
+
+}
+
+.hero-left h2 span {
+    color: #FABE4C;
+}
+
+.hero-left p {
+    color: var(--color);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.btn {
+    border-radius: 10px;
+    color: #fff;
+    background-image: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    padding: 12px 34px;
+}
+
+/* W0Man Jacket */
+.woman-product {
+    padding: 50px;
+}
+
+.jecket {
+    font-size: 48px;
+    line-height: 57.6px;
+    color: var(--color);
+    text-transform: uppercase;
+}
+
+.card {
+    padding: 20px;
+}
+
+.bg-card {
+    background: #F1F1F1;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.card-title {
+    color: var(--color);
+    font-size: 26px;
+    line-height: 28.13px;
+}
+
+.card-img img {
+    width: 100%;
+    height: 370px;
+}
+
+.card.rounded-3 {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px !important;
+}
+
+.card-body span {
+    color: var(--color-two);
+    font-size: 36px;
+    line-height: 42.19px;
+}
+
+.card-body a img {
+    max-width: 30px;
+}
+
+.man-product {
+    padding: 38px 0;
+}
+
+/* features */
+.features {
+    padding: 130px 0;
+}
+
+.feature-items {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+
+.f-img {
+    max-width: 78px;
+}
+
+.f-img img {
+    width: 100%;
+}
+
+.f-info {
+    padding-left: 40px;
+}
+
+.f-info h5 {
+    color: var(--color);
+    font-size: 24px;
+    line-height: 28.13px;
+    margin-bottom: 14px;
+}
+
+.f-info p {
+    color: var(--color);
+    margin-bottom: 0 !important;
+}
